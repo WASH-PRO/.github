@@ -1,43 +1,108 @@
 <div align="center">
 
-[![WASH-PRO — контроллеры для автомоек самообслуживания](./assets/wash-pro-panel-banner.png)](https://wash-pro.tech)
+[![WASH-PRO](./assets/ac03e482-bcb9-418c-bc13-04147fc17f88-pic4.png)](https://wash-pro.tech)
 
-### Программно-аппаратные решения для автомоек самообслуживания
+[![Stable](./assets/stable-3310-28a3df-flatsvg.svg)](https://github.com/WASH-PRO/WASH-PRO-PANEL)
+[![License](./assets/license-bsd-3-clause-428f7e-flatsvg.svg)](https://github.com/WASH-PRO/WASH-PRO-PANEL)
 
-[![Website](https://img.shields.io/badge/website-wash--pro.tech-0ea5e9?style=for-the-badge&logo=google-chrome&logoColor=white)](https://wash-pro.tech)
-[![Organization](https://img.shields.io/badge/GitHub-WASH--PRO-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/WASH-PRO)
-[![Founded](https://img.shields.io/badge/с_2021-года-6366f1?style=for-the-badge)](https://github.com/WASH-PRO)
+<br>
+
+[![Website](https://img.shields.io/badge/Сайт-wash--pro.tech-0ea5e9?style=for-the-badge&logo=google-chrome&logoColor=white)](https://wash-pro.tech)
+[![GitHub](https://img.shields.io/badge/Организация-WASH--PRO-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/WASH-PRO)
+[![Since 2021](https://img.shields.io/badge/На_рынке-с_2021-6366f1?style=for-the-badge)](https://github.com/WASH-PRO)
+
+### Контроллеры и электроника для автомоек самообслуживания
 
 </div>
 
 ---
 
-## О нас
+## 👋 О компании
 
-**WASH-PRO** — команда инженеров и разработчиков, которая проектирует и производит **контроллеры, прошивки и периферию** для автомоек самообслуживания.
+**WASH-PRO** разрабатывает и производит **контроллеры, прошивки и периферию** для автомоек самообслуживания.
 
-Мы закрываем полный цикл: от печатных плат и embedded-прошивок до веб-интерфейсов настройки, телеметрии и инструментов обслуживания.
+Мы закрываем полный цикл — от схемы и печатной платы до прошивки, веб-настройки, телеметрии и инструментов обслуживания на объекте.
 
-> Надёжная электроника на объекте · понятная настройка для монтажника · стабильная работа 24/7 для владельца мойки
-
----
-
-## Экосистема продуктов
-
-| Направление | Репозиторий | Описание |
-| :--- | :--- | :--- |
-| **Панель управления** | [WASH-PRO-PANEL](https://github.com/WASH-PRO/WASH-PRO-PANEL) | Прошивка контроллера мойки: режимы, оплата, дисплей, Wi‑Fi, веб-настройки |
-| **NFC‑ридер** | [WASH-PRO-NFC](https://github.com/WASH-PRO/WASH-PRO-NFC) | Считыватель карт и бесконтактных носителей для клиентских и сервисных сценариев |
-| **Pulse‑конвертер** | [WASH-PRO-PULSE](https://github.com/WASH-PRO/WASH-PRO-PULSE) | Преобразование импульсов терминала эквайринга для контроллера оборудования |
-| **Контроль уровня воды** | [WATER-LEVEL-CONTROLLER](https://github.com/WASH-PRO/WATER-LEVEL-CONTROLLER) | Fail-safe контроллер уровня с веб‑панелью и OTA |
-| **Дашборд / сервер** | [WASH-PRO-DASHBOARD](https://github.com/WASH-PRO/WASH-PRO-DASHBOARD) | Серверная часть для сбора данных с контроллеров |
-| **Печатные платы** | [WASH-PRO-EASYEDA](https://github.com/WASH-PRO/WASH-PRO-EASYEDA) | Производственные файлы и разработка PCB |
-| **Карты доступа** | [WASH-PRO-CARDS](https://github.com/WASH-PRO/WASH-PRO-CARDS) | Проекты карт для моек серии Geldbaum |
-| **Инструменты** | [wash-pro-agent](https://github.com/WASH-PRO/wash-pro-agent) | Агент для удалённого обслуживания и интеграций |
+| | |
+| :--- | :--- |
+| 🛠 **Для монтажника** | Понятная настройка через веб-интерфейс |
+| 🏭 **Для владельца** | Стабильная работа 24/7, учёт оплат и режимов |
+| ⚙️ **Для интегратора** | Модульная экосистема устройств под одну мойку |
 
 ---
 
-## Технологии
+## 🧩 Экосистема
+
+<table>
+  <tr>
+    <th>Компонент</th>
+    <th>Репозиторий</th>
+    <th>Назначение</th>
+  </tr>
+  <tr>
+    <td><strong>Панель управления</strong></td>
+    <td><a href="https://github.com/WASH-PRO/WASH-PRO-PANEL">WASH-PRO-PANEL</a></td>
+    <td>Контроллер мойки: режимы, оплата, дисплей, Wi‑Fi, веб-интерфейс</td>
+  </tr>
+  <tr>
+    <td><strong>NFC‑ридер</strong></td>
+    <td><a href="https://github.com/WASH-PRO/WASH-PRO-NFC">WASH-PRO-NFC</a></td>
+    <td>Считывание клиентских, сервисных и служебных карт</td>
+  </tr>
+  <tr>
+    <td><strong>Pulse‑конвертер</strong></td>
+    <td><a href="https://github.com/WASH-PRO/WASH-PRO-PULSE">WASH-PRO-PULSE</a></td>
+    <td>Импульсы терминала эквайринга → контроллер оборудования</td>
+  </tr>
+  <tr>
+    <td><strong>Контроль воды</strong></td>
+    <td><a href="https://github.com/WASH-PRO/WATER-LEVEL-CONTROLLER">WATER-LEVEL-CONTROLLER</a></td>
+    <td>Fail-safe контроль уровня, веб‑панель, OTA</td>
+  </tr>
+  <tr>
+    <td><strong>Дашборд</strong></td>
+    <td><a href="https://github.com/WASH-PRO/WASH-PRO-DASHBOARD">WASH-PRO-DASHBOARD</a></td>
+    <td>Серверный сбор данных с контроллеров</td>
+  </tr>
+  <tr>
+    <td><strong>PCB / производство</strong></td>
+    <td><a href="https://github.com/WASH-PRO/WASH-PRO-EASYEDA">WASH-PRO-EASYEDA</a></td>
+    <td>Файлы и разработка печатных плат</td>
+  </tr>
+  <tr>
+    <td><strong>Карты доступа</strong></td>
+    <td><a href="https://github.com/WASH-PRO/WASH-PRO-CARDS">WASH-PRO-CARDS</a></td>
+    <td>Карты для моек серии Geldbaum</td>
+  </tr>
+  <tr>
+    <td><strong>Агент</strong></td>
+    <td><a href="https://github.com/WASH-PRO/wash-pro-agent">wash-pro-agent</a></td>
+    <td>Удалённое обслуживание и интеграции</td>
+  </tr>
+</table>
+
+---
+
+## ⭐ WASH-PRO-PANEL
+
+Флагманский репозиторий прошивки контроллера — [ветка `main`](https://github.com/WASH-PRO/WASH-PRO-PANEL/tree/main):
+
+```
+• RGB-матрицы 320×160 и 256×128
+• Наличные, безнал, NFC-карты, сервисные и VIP-режимы
+• Веб-настройка (GyverPortal), 16 языков
+• Отдельные ветки под экраны, языки и ревизии железа
+```
+
+<div align="center">
+
+[![WASH-PRO-PANEL](https://img.shields.io/badge/Открыть-WASH--PRO--PANEL-2563eb?style=for-the-badge&logo=github&logoColor=white)](https://github.com/WASH-PRO/WASH-PRO-PANEL)
+
+</div>
+
+---
+
+## 🛠 Стек
 
 <div align="center">
 
@@ -51,37 +116,16 @@
 
 ---
 
-## WASH-PRO-PANEL — флагманский контроллер
-
-Центральный репозиторий прошивки панели управления автомойкой:
-
-- поддержка RGB‑матриц **320×160** и **256×128**
-- наличные, безнал, NFC‑карты, сервисные и безлимитные режимы
-- веб‑интерфейс настройки через **GyverPortal**
-- мультиязычность (**16 языков**)
-- ветки под конкретные экраны, языки и аппаратные ревизии
-
 <div align="center">
 
-[![Открыть WASH-PRO-PANEL](https://img.shields.io/badge/Открыть_WASH--PRO--PANEL-2563eb?style=for-the-badge&logo=github&logoColor=white)](https://github.com/WASH-PRO/WASH-PRO-PANEL)
+**[wash-pro.tech](https://wash-pro.tech)** · **[github.com/WASH-PRO](https://github.com/WASH-PRO)**
 
-</div>
+<br>
 
----
+<sub>Баннер и бейджи в шапке — из репозитория <a href="https://github.com/WASH-PRO/WASH-PRO-PANEL/tree/main/images">WASH-PRO-PANEL</a>, ветка <code>main</code></sub>
 
-## Связаться с нами
+<br>
 
-<div align="center">
-
-[![Сайт WASH-PRO](https://img.shields.io/badge/Сайт-wash--pro.tech-0ea5e9?style=for-the-badge)](https://wash-pro.tech)
-[![GitHub Organization](https://img.shields.io/badge/Организация-WASH--PRO-181717?style=for-the-badge&logo=github)](https://github.com/WASH-PRO)
-
-</div>
-
----
-
-<div align="center">
-
-<sub>Разрабатываем и производим контроллеры и электронное оборудование для автомоек самообслуживания · © WASH-PRO</sub>
+<sub>© WASH-PRO · Контроллеры для автомоек самообслуживания</sub>
 
 </div>
